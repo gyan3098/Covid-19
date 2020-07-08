@@ -1,2 +1,2 @@
 to activate mongodb database
-C:\\"Program Files"\\MongoDB\\Server\\4.2\\bin\\mongod --dbpath=d:\\ITA_DashBoard\\mg-covid19-data
+C:\\"Program Files"\\MongoDB\\Server\\4.2\\bin\\mongod --dbpath=d:\\Covid-19\\mg-covid19-data
