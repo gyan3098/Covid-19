@@ -1,0 +1,31 @@
+{
+  "name": "Covid_19",
+  "version": "1.0.0",
+  "description": "",
+  "main": "angular.min.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Gyan Ranjan",
+  "license": "ISC",
+  "dependencies": {
+    "angular-cookies": "^1.7.9",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.7-alpha.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.5.4",
+    "mongoose": "^5.9.4",
+    "multer": "^1.4.2",
+    "multer-gridfs-storage": "^4.0.2",
+    "ng-file-upload": "^12.2.13",
+    "validator": "^12.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

@@ -1,0 +1,299 @@
+{
+    "Summary":
+    {
+        "confirmedButLocationUnidentified": 410,
+        "confirmed": 95711,
+        "deaths": 3029,
+        "recovered": 36824,
+        "total": 96169
+    },
+    "States": [
+    {
+        
+        "confirmed": 33,
+        "deaths": 0,
+        "recovered": 33,
+        "loc": "Andaman and Nicobar Islands",
+        "new_cases": 10
+            },
+    {
+        
+        "confirmed": 2407,
+        "deaths": 50,
+        "recovered": 1456,
+        "loc": "Andhra Pradesh",
+        "new_cases": 10
+    },
+    {
+        "confirmed": 1,
+        "deaths": 0,
+        "recovered": 1,
+        "loc": "Arunachal Pradesh",
+        "new_cases": 10
+           },
+    {
+        "confirmed": 101,
+        "deaths": 2,
+        "recovered": 41,
+        "loc": "Assam",
+        "new_cases": 10
+        
+    },
+    {
+
+        "confirmed": 1262,
+        "deaths": 8,
+        "recovered": 475,
+        "loc": "Bihar",
+        "new_cases": 10
+    },
+    {
+        "confirmed": 191,
+        "deaths": 3,
+        "recovered": 51,
+        "loc": "Chandigarh",
+        "new_cases": 10
+        
+    },
+    {
+        "confirmed": 86,
+        "deaths": 0,
+        "recovered": 59,
+        "loc": "Chhattisgarh",
+        "new_cases": 10
+    },
+    {
+
+        "confirmed": 1,
+        "deaths": 0,
+        "recovered": 0,
+        "loc": "Dadar Nagar Haveli",
+        "new_cases": 10
+    },
+    {
+
+        "confirmed": 10053,
+        "deaths": 160,
+        "recovered": 4485,
+        "loc": "Delhi",
+        "new_cases": 10
+    },
+    {
+
+        "confirmed": 28,
+        "deaths": 0,
+        "recovered": 7,
+        "loc": "Goa",
+        "new_cases": 10
+            },
+    {
+        
+        
+        "confirmed": 11378,
+        "deaths": 659,
+        "recovered": 4499,
+        "loc": "Gujarat",
+        "new_cases": 10
+        
+    },
+    {
+        
+        
+        "confirmed": 896,
+        "deaths": 14,
+        "recovered": 562,
+        "loc": "Haryana",
+        "new_cases": 10
+        
+    },
+    {
+        
+        
+        "confirmed": 80,
+        "deaths": 3,
+        "recovered": 44,
+        "loc": "Himachal Pradesh",
+        "new_cases": 10
+            },
+    {
+        
+        
+        "confirmed": 1183,
+        "deaths": 13,
+        "recovered": 575,
+        "loc": "Jammu and Kashmir",
+        "new_cases": 10
+    },
+    {
+        
+        
+        "confirmed": 223,
+        "deaths": 3,
+        "recovered": 113,
+        "loc": "Jharkhand",
+        "new_cases": 10
+    },
+    {
+        
+        
+        "confirmed": 1147,
+        "deaths": 37,
+        "recovered": 509,
+        "loc": "Karnataka",
+        "new_cases": 10
+    },
+    {
+        
+        
+        "confirmed": 593,
+        "deaths": 4,
+        "recovered": 497,
+        "loc": "Kerala",
+        "new_cases": 10
+    },
+    {
+        
+        
+        "confirmed": 43,
+        "deaths": 0,
+        "recovered": 24,
+        "loc": "Ladakh",
+        "new_cases": 10
+    },
+    {
+        
+        
+        "confirmed": 4977,
+        "deaths": 248,
+        "recovered": 2403,
+        "loc": "Madhya Pradesh",
+        "new_cases": 10
+    },
+    {
+        
+        
+        "confirmed": 33050,
+        "deaths": 1198,
+        "recovered": 7688,
+        "loc": "Maharashtra",
+        "new_cases": 10
+    },
+    {
+        
+        
+        "confirmed": 7,
+        "deaths": 0,
+        "recovered": 2,
+        "loc": "Manipur",
+        "new_cases": 10
+    },
+    {
+        
+        
+        "confirmed": 13,
+        "deaths": 1,
+        "recovered": 11,
+        "loc": "Meghalaya",
+        "new_cases": 10
+    },
+    {
+        
+        
+        "confirmed": 1,
+        "deaths": 0,
+        "recovered": 1,
+        "loc": "Mizoram",
+        "new_cases": 10
+    },
+    {
+        
+        
+        "confirmed": 828,
+        "deaths": 4,
+        "recovered": 220,
+        "loc": "Odisha",
+        "new_cases": 10
+    },
+    {
+        
+        
+        "confirmed": 13,
+        "deaths": 1,
+        "recovered": 9,
+        "loc": "Puducherry",
+        "new_cases": 10
+    },
+    {
+        
+        
+        "confirmed": 1964,
+        "deaths": 35,
+        "recovered": 1366,
+        "loc": "Punjab",
+        "new_cases": 10
+    },
+    {
+        
+        
+        "confirmed": 5200,
+        "deaths": 131,
+        "recovered": 2992,
+        "loc": "Rajasthan",
+        "new_cases": 10
+    },
+    {
+        
+        
+        "confirmed": 11218,
+        "deaths": 78,
+        "recovered": 4172,
+        "loc": "Tamil Nadu",
+        "new_cases": 10
+    },
+    {
+        
+        
+        "confirmed": 1541,
+        "deaths": 34,
+        "recovered": 992,
+        "loc": "Telengana",
+        "new_cases": 10
+    },
+    {
+        
+        
+        "confirmed": 167,
+        "deaths": 0,
+        "recovered": 85,
+        "loc": "Tripura",
+        "new_cases": 10
+    },
+    {
+        
+        
+        "confirmed": 91,
+        "deaths": 1,
+        "recovered": 52,
+        "loc": "Uttarakhand",
+        "new_cases": 10
+    },
+    {
+        
+        
+        "confirmed": 4258,
+        "deaths": 104,
+        "recovered": 2441,
+        "loc": "Uttar Pradesh",
+        "new_cases": 10
+    },
+    {
+        
+        
+        "confirmed": 2677,
+        "deaths": 238,
+        "recovered": 959,
+        "loc": "West Bengal",
+        "new_cases": 10
+    }]
+
+}
