@@ -2,20 +2,20 @@
 
 ## Dashboard
 ![Dashboard](https://github.com/gyan3098/Covid-19/blob/master/git_images/Dashboard1.PNG "Dashboard1")
-![Dashboard](https://github.com/gyan3098/Covid-19/blob/master/git_images/git_images/Dashboard2.png "Dashboard2")
+![Dashboard](https://github.com/gyan3098/Covid-19/blob/master/git_images/Dashboard2.png "Dashboard2")
 
 ## Login
-![Login](https://github.com/gyan3098/Covid-19/blob/master/git_images/git_images/login.png "Login")
+![Login](https://github.com/gyan3098/Covid-19/blob/master/git_images/login.png "Login")
 
 ## Signup
-![Signup](https://github.com/gyan3098/Covid-19/blob/master/git_images/git_images/signup.png "Signup")
+![Signup](https://github.com/gyan3098/Covid-19/blob/master/git_images/signup.png "Signup")
 
 ## Medical-Form
-![Form](https://github.com/gyan3098/Covid-19/blob/master/git_images/git_images/form1.png "Form")
-![Form](https://github.com/gyan3098/Covid-19/blob/master/git_images/git_images/form2.png "Form")
+![Form](https://github.com/gyan3098/Covid-19/blob/master/git_images/form1.png "Form")
+![Form](https://github.com/gyan3098/Covid-19/blob/master/git_images/form2.png "Form")
 
 ## Covid-19 Table
-![Tables](https://github.com/gyan3098/Covid-19/blob/master/git_images/git_images/tables.png "Tables")
+![Tables](https://github.com/gyan3098/Covid-19/blob/master/git_images/tables.png "Tables")
 
 #### Start the server
 Before Starting the server make sure you have all node_modules installed
