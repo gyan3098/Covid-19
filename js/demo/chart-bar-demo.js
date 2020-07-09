@@ -28,9 +28,18 @@ function number_format(number, decimals, dec_point, thousands_sep) {
 }
 
 // Bar Chart Example
-max = Math.max(data.data)
+var max =0;
+var i = 0;
 console.log(max)
-console.log(data)
+var epicentre = ""
+for(i=0;i<33;i++){
+  if(data.data[i].confirmed > max){
+    max = data.data[i].confirmed;
+  }
+}
+console.log("max"+max)
+// console.log(data.data[i].loc)
+// console.log("epicentre " +epicentre)
 var i = 0
 var ctx = document.getElementById("myBarChart");
 var myBarChart = new Chart(ctx, {
@@ -74,14 +83,14 @@ var myBarChart = new Chart(ctx, {
           drawBorder: false
         },
         ticks: {
-          maxTicksLimit: 6
+          maxTicksLimit: 33
         },
         maxBarThickness: 25,
       }],
       yAxes: [{
         ticks: {
           min: 0,
-          max: 15000,
+          max: max,
           maxTicksLimit: 5,
           padding: 10,
           // Include a dollar sign in the ticks

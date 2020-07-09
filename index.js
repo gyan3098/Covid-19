@@ -62,7 +62,7 @@ app.post('/signup',async (req,res)=> {
         }catch(e) {
             // res.status(400).send(e)
             console.log(e)
-            res.sendFile(path.join(__dirname+'/register.html'));
+            res.redirect('/signup')
         }
            
         
@@ -121,7 +121,7 @@ app.post('/login', async (req,res) => {
     
     }catch {
         console.log("Sign in failed")
-        res.status(401).send()
+        res.status(401).redirect('/login')
     }
     
 })
