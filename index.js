@@ -154,7 +154,12 @@ app.get('/medical_form',auth, async (req,res) => {
 
 app.post('/medical_form',auth, async (req,res)=> {
     console.log(req.body);
-    console.log(typeof(req.body.cur))
+    var d = new Date();
+    var month = new Array();
+    month = ["January","February","March","April","May","June","July","August","September","October","November","December"]
+    var n = month[d.getMonth()];
+    console.log(n)
+    // console.log(typeof(req.body.cur))
         const patient = new Patient({
             cur_problem: req.body.cur ,
             past_problem: req.body.history,
@@ -170,11 +175,18 @@ app.post('/medical_form',auth, async (req,res)=> {
         })
         try{
             await patient.save()
-            if(req.body.corona_positive){
-                const month = await MonthCase.findOne({loc: req.body.state})
-                month.confirmed = month.confirmed + 1,
-                month.new_cases = month.new_cases + 1
-                await month.save();
+            if(req.body.corona_positive == 'true'){
+                const state = await State.findOne({loc: req.body.state})
+                state.confirmed = state.confirmed + 1
+                state.new_cases = state.new_cases + 1
+                await state.save();
+                console.log(state)
+                const monthWise = await MonthCase.findOne({month: n})
+                monthWise.confirmed = monthWise.confirmed + 1
+                monthWise.new_cases = monthWise.new_cases + 1
+                await monthWise.save()
+                console.log(monthWise)
+
             }
             console.log("Successfully filled up");
             res.redirect('/')
